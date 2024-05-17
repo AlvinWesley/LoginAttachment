@@ -1,0 +1,118 @@
+/* form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.username{
+    flex:1 0 130px
+}
+.password{
+    flex: 2 0 130px;
+}
+button{
+    flex:1 0 140px;
+    background: #21fd0db9;
+    border-radius: 67px;
+    border: none;
+} */
+*{
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+    padding:0; 
+    margin:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    scroll-behavior: smooth;
+    scrollbar-color: rgb(224, 12, 12);
+
+}
+body{
+    background-image: url("pic1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+}
+.skeleton{
+    display: flex;
+    flex-direction: column;
+    border:1px solid #544;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    min-height: 100vh;
+}
+.midcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+     height: 12.5cm;
+     overflow: hidden;
+     border: 1px solid #fffee3;
+}
+.upper,
+.lower{
+    border: 1px solid rgba(194, 60, 60, 0.877);
+    margin:10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width:12cm;
+    min-width: 9cm;
+    min-height: 12cm;
+    color:rgb(255, 252, 255);
+    backdrop-filter: blur(10px);
+display:flex;
+align-items: center;
+justify-content:space-around;
+flex-direction: column;
+gap: 10px;
+font-size: large;
+transition:  ease-in-out  0.3s ;
+}
+.upper:hover{
+    border-color: aquamarine;
+    cursor: pointer;
+}
+.lower:hover{
+    border-color: aquamarine;
+    cursor: pointer;
+}
+.SignUp,
+.LogIn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:5px;
+}
+
+.Recoveryemail{
+    content-visibility: hidden;
+}
+input{
+    padding:10px;
+    border:none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid rgb(252, 255, 251);
+    margin: 5px;
+    color:rgb(0, 255, 255);
+}
+input:hover{
+    border-color:rgb(66, 235, 223) ;
+}
+button{
+    padding:10px;
+    border-radius: 5px;
+    outline:#544;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    
+   
+}
+button:hover{
+    background-color: rgb(138, 250, 198);
+    transform: scale(1.01);
+}
+/* moving of the divs starts here */
