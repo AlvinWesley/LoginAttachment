@@ -1,7 +1,7 @@
 // var btn=document.querySelector(".btn");
 // btn.addEventListener('click',function(){ alert('Hello alvin')});
-var forgot=document.querySelector(".btn");
-forgot.addEventListener('click',showing());
+var forgott=document.querySelector(".btn");
 function showing(){
-    alert("showing the function");
+    alert("hey de're");
 }
+forgott.addEventListener('click',showing);

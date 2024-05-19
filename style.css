@@ -116,3 +116,9 @@ button:hover{
     transform: scale(1.01);
 }
 /* moving of the divs starts here */
+.show{
+visibility: visible;
+}
+.hide{
+visibility: hidden;
+}
